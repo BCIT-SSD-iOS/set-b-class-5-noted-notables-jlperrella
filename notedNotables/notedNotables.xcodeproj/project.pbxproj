@@ -13,6 +13,7 @@
 		E8D9E280223970C600B14CCE /* notedNotables.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8D9E27E223970C600B14CCE /* notedNotables.xcdatamodeld */; };
 		E8D9E282223970C700B14CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D9E281223970C700B14CCE /* Assets.xcassets */; };
 		E8D9E285223970C700B14CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D9E283223970C700B14CCE /* LaunchScreen.storyboard */; };
+		E8D9E28F223974C000B14CCE /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9E28E223974C000B14CCE /* NotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E8D9E281223970C700B14CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8D9E284223970C700B14CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8D9E286223970C700B14CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D9E28E223974C000B14CCE /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E8D9E283223970C700B14CCE /* LaunchScreen.storyboard */,
 				E8D9E286223970C700B14CCE /* Info.plist */,
 				E8D9E27E223970C600B14CCE /* notedNotables.xcdatamodeld */,
+				E8D9E28E223974C000B14CCE /* NotesViewController.swift */,
 			);
 			path = notedNotables;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D9E28F223974C000B14CCE /* NotesViewController.swift in Sources */,
 				E8D9E280223970C600B14CCE /* notedNotables.xcdatamodeld in Sources */,
 				E8D9E27A223970C600B14CCE /* ViewController.swift in Sources */,
 				E8D9E278223970C600B14CCE /* AppDelegate.swift in Sources */,
